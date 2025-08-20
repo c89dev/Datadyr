@@ -16,11 +16,11 @@
         function HangryScale(){
             if (hunger < 50 && isDead != true){
                 isHangry = true;
-                document.getElementById('petImg').src="graphics/pet_hungry.png"
+                document.getElementById('petImg').src="Graphics/pet_hungry.png"
             }
             else if (hunger > 50 && mood < 200 && mood > 50){
                 isHangry = false;
-                document.getElementById('petImg').src="graphics/pet_neutral.png"
+                document.getElementById('petImg').src="Graphics/pet_neutral.png"
             }
         }
 
@@ -31,7 +31,7 @@
         else{
             isDead = true;
             document.getElementById('hungerDiv').innerText = "DEAD"
-            document.getElementById('petImg').src="graphics/pet_dead.png"
+            document.getElementById('petImg').src="Graphics/pet_dead.png"
         }
         return hunger;
         }
@@ -40,11 +40,11 @@
 
             if (mood < 50 && isDead != true){
                 isSad = true;
-                document.getElementById('petImg').src="graphics/pet_sad.png"
+                document.getElementById('petImg').src="Graphics/pet_sad.png"
             }
             else if (mood > 150){
                 isSad = false;
-                document.getElementById('petImg').src="graphics/pet_happy.png"
+                document.getElementById('petImg').src="Graphics/pet_happy.png"
             }
             return mood;
         }
@@ -56,7 +56,7 @@
         // else{
         //     isDead = true;
         //     document.getElementById('hungerDiv').innerText = "DEAD"
-        //     document.getElementById('petImg').src="graphics/pet_dead.png"
+        //     document.getElementById('petImg').src="Graphics/pet_dead.png"
         // }
         return mood;
         }
