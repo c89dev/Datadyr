@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(142, 218, 195);
+}
+
+.petDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotbar{
+
+display: flex;
+border: 15px solid;
+padding: 1%;
+gap: 10%;
+border-color: rgb(28, 131, 97);
+border-radius: 5%;
+background-color: aliceblue;
+}
+
+.hotbarButton{
+    border: 10px solid;
+    border-color: rgb(192, 218, 49);
+}
+
+.testDiv{
+    
+}
+
+.invisible{
+    color: rgba(240, 248, 255, 0);
+}

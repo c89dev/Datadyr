@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datadyr</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div id="petId" class="petDiv">
+        <img id="petImg" src="graphics/pet_neutral.png" alt="Pet Status">
+    </div>
+    
+    <section class="hotbar">
+
+        <div class="hotbarButton">
+            <img onclick="FeedPet()" src="graphics/food.png" width="128px" height="128">
+        </div>
+        <div class="hotbarButton">
+            <img onclick="ComfortPet()" src="graphics/hand.png" width="128px" height="128">
+        </div>
+
+    </section>
+    
+    <div id="hungerDiv" class="invisible">test</div>
+    <div id="hangrydDiv" class="invisible">hangry</div>
+     <div id="moodDiv" class="invisible">mood</div>
+     <div id="happyDiv" class="invisible">mood</div>
+    
+    
+    
+    <script>
+        setInterval(refresh, 180);
+    </script>
+    
+</body>
+</html>
